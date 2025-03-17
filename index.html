@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="apple-logo-png_seeklogo-158010.png" alt="Apple Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#products">Produtos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1></p>
+        <a href="#products" class="btn">Saiba Mais</a>
+    </section>
+
+    <section id="about" class="content-section">
+        <h2>Sobre a Apple</h2>
+        <p>A Apple é líder em inovação tecnológica, trazendo design elegante e desempenho excepcional.</p>
+    </section>
+
+    <section id="products" class="content-section">
+        <h2>Nossos Produtos</h2>
+        <div class="product-list">
+            <div class="product-card">
+                <img src="iphone-16-pro-finish-select-202409-6-9inch-blacktitanium.png" alt="iPhone">
+                <h3>iPhone</h3>
+            </div>
+            <div class="product-card">
+                <img src="Apple-MacBook-Pro-A1278-3.png" alt="MacBook">
+                <h3>MacBook</h3>
+            </div>
+            <div class="product-card">
+                <img src="ipad-2022-hero-pink-wifi-select.png" alt="iPad">
+                <h3>iPad</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Contato</h2>
+        <p>Entre em contato para saber mais sobre os produtos Apple.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Apple Learning Page. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const btn = document.querySelector(".btn");
+            btn.addEventListener("mouseover", () => {
+                btn.style.backgroundColor = "#0056b3";
+            });
+            btn.addEventListener("mouseout", () => {
+                btn.style.backgroundColor = "#0071e3";
+            });
+        });
+    </script>
+</body>
+</html>
